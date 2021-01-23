@@ -73,9 +73,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-body {
-  background-color: #BBC0C9;
-}
 body .contaner {
   max-width: 1400px;
   margin: 0 auto;
@@ -258,9 +255,6 @@ body .contaner .main .main_3 .d_m3 div:hover {
   background: #008A7B;
   box-shadow: 1px 0 10px rgba(0, 0, 0, 0.4);
 }
-body .contaner .main .main_3 .d_m3 div *:hover {
-  color: #fff;
-}
 body .contaner .main .main_3 .d_m3 div a {
   background-image: url(../img/img_m31.png);
   background-size: cover;
@@ -268,9 +262,6 @@ body .contaner .main .main_3 .d_m3 div a {
   background-position: center;
   height: 62px;
   width: 56px;
-}
-body .contaner .main .main_3 .d_m3 div a:hover {
-  background: url(../img/img_m3.png);
 }
 body .contaner .main .main_3 .d_m3 div .d_p1 {
   font-family: Open Sans Semibold;
@@ -293,8 +284,12 @@ body .contaner .main .main_3 .d_m3 div button {
   margin-top: 15px;
   background: none;
 }
-body .contaner .main .main_3 .d_m3 div button:hover {
-  border: #fff solid 2 px;
+body .contaner .main .main_3 .d_m3 div:hover * {
+  color: #fff;
+  border-color: #fff;
+}
+body .contaner .main .main_3 .d_m3 div:hover a {
+  background: url(../img/img_m3.png);
 }
 body .contaner .main .main_4 {
   width: 100%;
@@ -484,6 +479,7 @@ body .contaner .main .main_6 {
   flex-direction: column;
   align-items: center;
   background: #fff;
+  padding-bottom: 40px;
 }
 body .contaner .main .main_6 .p1_m6 {
   font-size: 18px;
@@ -502,19 +498,63 @@ body .contaner .main .main_6 .main_6_div {
   width: 90%;
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
 }
-body .contaner .main .main_6 .main_6_div div {
+body .contaner .main .main_6 .main_6_div .murad_tigr {
   width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-body .contaner .main .main_6 .main_6_div div img {
+body .contaner .main .main_6 .main_6_div .murad_tigr .man_m6 {
   width: 100%;
 }
-body .contaner .main .main_6 .main_6_div div .name {
+body .contaner .main .main_6 .main_6_div .murad_tigr .name {
   font-size: 18px;
+  font-family: Open Sans Semibold;
+  padding: 20px 0 5px 0;
+  font-weight: 700;
+}
+body .contaner .main .main_6 .main_6_div .murad_tigr .dol {
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
+}
+body .contaner .main .main_6 .main_6_div .murad_tigr .img_main_6 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+body .contaner .main .main_6 .main_6_div .murad_tigr .img_main_6 img {
+  transition: 0.4s background;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #95E1D3;
+}
+body .contaner .main .main_6 .main_6_div .murad_tigr .img_main_6 img:hover {
+  background: #F0F1F1;
+  border-color: #F0F1F1;
+}
+body .contaner .main .main_6 .span_m6 {
+  display: flex;
+  margin-top: 80px;
+}
+body .contaner .main .main_6 .span_m6 span + span {
+  margin-left: 7px;
+}
+body .contaner .main .main_6 .span_m6 span {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background: #008A7B;
+  cursor: pointer;
+}
+body .contaner .main .main_6 .span_m6 .blue {
+  background: #2D47AF;
+}
+body .contaner .main .main_6 .span_m6 span:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 768px) {
@@ -560,6 +600,26 @@ body .contaner .main .main_6 .main_6_div div .name {
   body .contaner .main .main_5 .d_m5 .div_d {
     width: 60%;
   }
+
+  body .contaner .main .main_6 .p2_m6 {
+    width: 70%;
+  }
+
+  body .contaner .main .main_6 .main_6_div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body .contaner .main .main_6 .main_6_div .murad_tigr + .murad_tigr {
+    margin-top: 80px;
+  }
+
+  body .contaner .main .main_6 .main_6_div .murad_tigr {
+    width: 85%;
+  }
+  body .contaner .main .main_6 .main_6_div .murad_tigr .man_m6 {
+    width: 60%;
+  }
 }
 @media (max-width: 576px) {
   body .contaner .main .main_2 .p2_m2 {
@@ -592,6 +652,13 @@ body .contaner .main .main_6 .main_6_div div .name {
   }
 
   body .contaner .main .main_5 .d_m5 .div_d {
+    width: 90%;
+  }
+
+  body .contaner .main .main_6 .main_6_div .murad_tigr {
+    width: 100%;
+  }
+  body .contaner .main .main_6 .main_6_div .murad_tigr .man_m6 {
     width: 90%;
   }
 }
