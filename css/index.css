@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 body .contaner {
-  max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -556,6 +556,191 @@ body .contaner .main .main_6 .span_m6 .blue {
 body .contaner .main .main_6 .span_m6 span:hover {
   opacity: 0.8;
 }
+body .contaner .main .main_7 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #DAFDF9;
+  padding-bottom: 30px;
+}
+body .contaner .main .main_7 .p1_m7 {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  margin: 80px 0 20px 0;
+  font-weight: 700;
+}
+body .contaner .main .main_7 .p2_m7 {
+  line-height: 15px;
+  font-size: 12px;
+  text-align: center;
+  width: 40%;
+  margin-bottom: 40px;
+}
+body .contaner .main .main_7 .d1_m7 {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+body .contaner .main .main_7 .d1_m7 .img1_m7 {
+  width: 50%;
+}
+body .contaner .main .main_7 .d1_m7 .d2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+body .contaner .main .main_7 .d1_m7 .d2 .d2_p1 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 25px 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+body .contaner .main .main_7 .d1_m7 .d2 .d2_p1:hover {
+  color: #00C1B7;
+}
+body .contaner .main .main_7 .d1_m7 .d2 .d2_d1 {
+  display: flex;
+  margin-bottom: 25px;
+}
+body .contaner .main .main_7 .d1_m7 .d2 .d2_d1 p + p {
+  margin-left: 10px;
+}
+body .contaner .main .main_7 .d1_m7 .d2 .d2_d1 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+body .contaner .main .main_7 .d1_m7 .d2 .d2_p2 {
+  font-family: "Open Sans";
+  line-height: 17px;
+  font-size: 15px;
+}
+body .contaner .main .main_7 .d1_m7 .sss {
+  padding: 0;
+}
+body .contaner .main .main_7 button {
+  font-size: 12px;
+  border-radius: 2px;
+  color: #000;
+  border: solid #000 1.5px;
+  padding: 8px 10px;
+  margin-top: 100px;
+  background: #fff;
+  font-family: Open Sans Semibold;
+  transition: 0.3s all;
+}
+body .contaner .main .main_7 button:hover {
+  background-color: #008A7B;
+  color: #fff;
+  border-color: #008A7B;
+}
+body .contaner .main footer {
+  padding-bottom: 50px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/footer_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body .contaner .main footer .p1_m7 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin: 80px 0 20px 0;
+  color: #fff;
+}
+body .contaner .main footer .p2_m7 {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  line-height: 18px;
+  font-size: 14px;
+  text-align: center;
+  width: 40%;
+  margin-bottom: 80px;
+  font-weight: 100;
+}
+body .contaner .main footer .ft_d1 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+body .contaner .main footer .ft_d1 .ganax {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .contaner .main footer .ft_d1 .ganax div {
+  background: #2D47AF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+}
+body .contaner .main footer .ft_d1 .ganax div img {
+  width: 50%;
+}
+body .contaner .main footer .ft_d1 .ganax p {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 20px;
+}
+body .contaner .main footer form {
+  margin-top: 100px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .contaner .main footer form .input_ft {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+body .contaner .main footer form .input_ft input {
+  width: 49%;
+  padding: 15px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "OpenSans";
+  color: rgba(33, 33, 33, 0.8);
+}
+body .contaner .main footer form textarea {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 15px 10px;
+  font-family: "OpenSans";
+  color: rgba(33, 33, 33, 0.8);
+  height: 150px;
+}
+body .contaner .main footer form button {
+  align-self: flex-end;
+  font-size: 15px;
+  border-radius: 4px;
+  color: #000;
+  border: solid #000 1.5px;
+  padding: 8px 20px;
+  margin-top: 10px;
+  background: #fff;
+  font-family: Open Sans Semibold;
+  transition: 0.3s all;
+  font-weight: 700;
+}
+body .contaner .main footer form button:hover {
+  background-color: #2D47AF;
+  color: #fff;
+}
 
 @media (max-width: 768px) {
   body .contaner header {
@@ -582,7 +767,7 @@ body .contaner .main .main_6 .span_m6 span:hover {
     width: 70%;
   }
 
-  body .contaner .main .main_4 .p2_m4 {
+  body .contaner .main .main_4 .p2_m4, body .contaner .main .main_7 .p2_m7, body .contaner .main footer .p2_m7 {
     width: 70%;
   }
 
@@ -619,6 +804,41 @@ body .contaner .main .main_6 .span_m6 span:hover {
   }
   body .contaner .main .main_6 .main_6_div .murad_tigr .man_m6 {
     width: 60%;
+  }
+
+  body .contaner .main .main_7 .d1_m7 {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .contaner .main .main_7 .d1_m7 .img1_m7 {
+    order: 1;
+    width: 90%;
+  }
+  body .contaner .main .main_7 .d1_m7 .d2 {
+    width: 90%;
+    padding: 10px 0 30px 0;
+    order: 2;
+  }
+
+  body .contaner .main footer .ft_d1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .contaner .main footer .ft_d1 .ganax + .ganax {
+    margin-top: 50px;
+  }
+  body .contaner .main footer .ft_d1 .ganax {
+    width: 70%;
+  }
+
+  body .contaner .main footer form .input_ft {
+    flex-direction: column;
+  }
+  body .contaner .main footer form .input_ft input + input {
+    margin-top: 10px;
+  }
+  body .contaner .main footer form .input_ft input {
+    width: 70%;
   }
 }
 @media (max-width: 576px) {
@@ -660,5 +880,19 @@ body .contaner .main .main_6 .span_m6 span:hover {
   }
   body .contaner .main .main_6 .main_6_div .murad_tigr .man_m6 {
     width: 90%;
+  }
+
+  body .contaner .main .main_7 .d1_m7 {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .contaner .main .main_7 .d1_m7 .img1_m7 {
+    order: 1;
+    width: 100%;
+  }
+  body .contaner .main .main_7 .d1_m7 .d2 {
+    width: 100%;
+    padding: 10px 0 30px 0;
+    order: 2;
   }
 }
