@@ -840,6 +840,10 @@ body .contaner .main footer form button:hover {
   body .contaner .main footer form .input_ft input {
     width: 70%;
   }
+
+  body .contaner .main footer form {
+    width: 95%;
+  }
 }
 @media (max-width: 576px) {
   body .contaner .main .main_2 .p2_m2 {
